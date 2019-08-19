@@ -1,0 +1,224 @@
+.dashboard__card {
+    height: 512px;
+    /* width: 300px; */
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px 0 #b7b7b780;
+    position: relative;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.dashboard__card-img {
+    height: 195px;
+    width: 190px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.wallet-text {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff9f00;
+}
+
+.dashboard__card-info {
+    margin-top: 20px;
+}
+
+.dashboard__card-title {
+    margin-top: 17px;
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.button {
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 20%;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.text {
+    word-spacing: 20px;
+}
+
+.button2 {
+    width: 106px;
+    height: 27px;
+    border-radius: 17.5px;
+    box-shadow: 0 2px 4px 0 rgba(186, 186, 186, 0.5);
+    background-color: #0895ff;
+}
+
+.button-Redeem {
+    width: 106px;
+    height: 27px;
+    border-radius: 17.5px;
+    box-shadow: 0 2px 4px 0 rgba(186, 186, 186, 0.5);
+    background-color: #ff9f00;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.flex-container>div {
+    background-color: white;
+    width: 100px;
+    margin-top: 27px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 10%;
+}
+
+.divider-line-middle {
+    width: 1200px;
+    height: 879px;
+    background-color: #ffffff;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 3px 15px;
+    margin-top: 20px;
+}
+
+.nav-pills>li>a {
+    height: 35px;
+    border-radius: 17.5px;
+    box-shadow: 0 2px 4px 0 rgba(186, 186, 186, 0.5);
+    background-color: #0895ff;
+}
+
+.Line-3 {
+    width: 887px;
+    height: 3px;
+    border: solid 1px #e7e7e7;
+    margin-top: 18px;
+}
+
+.marg-left {
+    margin-left: 20px;
+}
+
+.serv {
+    border-radius: 0%;
+    border-bottom-color: #008CBA;
+}
+
+.My-points {
+    width: 91px;
+    height: 27px;
+    font-family: AvenirNext;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #235187;
+}
+
+.-Points {
+    width: 96px;
+    height: 27px;
+    font-family: AvenirNext;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #235187;
+}
+
+.Rectangle-5 {
+    width: 124px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #ebf4ff;
+}
+
+.mrg-t {
+    margin-top: 29px;
+}
+
+.service-text {
+    padding-bottom: 16px;
+    padding-left: 0px;
+    border-bottom: 2px solid #0895ff;
+    color: #0895ff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.purchased-services-text {
+    /* font-family: AvenirNext; */
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #94abbd;
+    border-bottom: 2px solid #94abbd;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.services {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.93;
+    letter-spacing: normal;
+    color: #184161;
+    padding-left: 17px;
+    padding-right: 0px;
+}
+
+.plus-minus {
+    border: solid 0.5px #0895ff;
+    background-color: #ffffff;
+    color: #0895ff;
+    padding-left: 12px;
+    margin-top: 9px;
+}
+
+.Line-4 {
+    width: 379px;
+    height: 3px;
+    border: solid 1px #e3e3e3;
+}
